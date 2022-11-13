@@ -10,9 +10,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
   <title>Estamos trabajando...</title>
   <style>
+    /* $free-blue: #032387;
+      $free-green: #65D47B;
+      $free-yellow: #C4F353;
+      $free-orange: #E4654E; */
+
     body{
       font-family: 'Open Sans', sans-serif;
-
+      background-color: #032387;
+      
     }
     main{
       min-height: 100vh;
@@ -24,9 +30,10 @@
     }
     .card{
       width: 100%;
-      max-width: 500px;
+      max-width: 720px;
+      text-align: center;
       padding: 20px;
-      background-color: #fff;
+      background-color: #E4654E;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.2);
     }
@@ -45,23 +52,31 @@
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.2);
     }
+    .player-iframe{
+      aspect-ratio: 16/9;
+      width: 100%;
+    }
   </style>
 </head>
 <body>
   <main>
     <div class="card">
       <img src="logo.png" alt="" height="30">
-      <h1>Estamos trabajando...</h1>
+      <h1>Estamos preparando #SemanaDelAprendizaje</h1>
       <p>
-        Estamos dándole mantenimiento a nuestra página web, regresamos en unos minutos.
+        Del 14 al 18 de Noviembre todos nuestros cursos podrán verse graits.
       </p>
       <p>
-        Mientras tanto revive algunos de nuestros últimos lives en nuestro canal de YouTube:
+        Conoce más en el live de lanzamiento donde, además, estaremos haciendo recomendaciones personalizadas de cursos y rutas de estudio.
       </p>
-      <a class="main-btn" href="https://www.youtube.com/user/codigofacilito/">Ir a YouTube</a>
+      
+      <iframe class="player-iframe" src="https://www.youtube.com/embed/bZK5kFvrqz0" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
       <p>
         ¿Tienes dudas? Escríbenos en <a href="https://www.twitter.com/codigofacilito/" target="_blank""">Twitter</a>
       </p>
+      <p>La página volverá a estar disponible en cuestión de minutos.</p>
     </div>
   </main>
   
